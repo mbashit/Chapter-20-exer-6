@@ -25,8 +25,14 @@ int main()
 	if (x > 75 && y > 12) {
 		cout << "The day is hot and windy" << endl;
 	}
+	else if (x > 75 && y < 12) {
+		cout << "The day is hot and not windy" << endl;
+	}
+	else if (x < 75 && y > 12) {
+		cout << "The day is cold and windy" << endl;
+	}
 	else {
-		cout << "The day is cold and not windy";
+		cout << "The day is cold and not windy"<<endl;
 	}
 	return 0;
 }
